@@ -33,5 +33,10 @@
         android:layout_height="wrap_content"
         android:text="Register"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next app"
+        android:id="@+id/napp"/>
 
 </LinearLayout>
