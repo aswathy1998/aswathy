@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class calculator extends AppCompatActivity {
-EditText ed1,ed2;
+EditText ed1,ed2,ed3;
     Button b;
     String s1,s2,s3;
     int number1,number2,number3;
@@ -18,6 +18,7 @@ EditText ed1,ed2;
         setContentView(R.layout.activity_calculator);
         ed1=(EditText)findViewById(R.id.num1);
         ed2=(EditText)findViewById(R.id.num2);
+        ed3=(EditText)findViewById(R.id.result);
         b=(Button)findViewById(R.id.addbtn);
 
         b.setOnClickListener(new View.OnClickListener() {
@@ -29,7 +30,9 @@ EditText ed1,ed2;
                 number2=Integer.parseInt(s2);
                 number3=number1+number2;
                 s3=String.valueOf(number3);
-                Toast.makeText(getApplicationContext(),s3,Toast.LENGTH_LONG).show();
+                ed3.setVisibility(view.VISIBLE);
+                ed3.setText(s3);
+//                Toast.makeText(getApplicationContext(),s3,Toast.LENGTH_LONG).show();
             }
         });
     }
