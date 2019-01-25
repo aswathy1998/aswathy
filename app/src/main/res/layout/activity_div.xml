@@ -1,0 +1,53 @@
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbg"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number1"
+        android:textSize="18dp"/>
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num1"/>
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Number2"/>
+    <EditText
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num2"/>
+    <Button
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonstylings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/divbtn"
+        android:text="Division" />
+    <EditText
+        android:visibility="gone"
+        android:editable="false"
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonstylings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bk"
+        android:text="back" />
+
+</LinearLayout>

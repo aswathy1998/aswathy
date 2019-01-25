@@ -4,4 +4,16 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#4053ff</color>
     <color name="login">#bc09b3</color>
+    <color name="startcolor">#314755</color>
+    <color name="endcolor">#26a0da</color>
+    <color name="scolor">#b92b27</color>
+    <color name="ecolor">#1565C0</color>
+    <color name="rstartcolor">#1F1C2C</color>
+    <color name="rendcolor">#928DAB</color>
+    <color name="rscolor">#AA076B</color>
+    <color name="recolor">#61045F</color>
+    <color name="circle">#314755</color>
+
+    <color name="badd">#2b5876</color>
+    <color name="beadd">#4e4376</color>
 </resources>

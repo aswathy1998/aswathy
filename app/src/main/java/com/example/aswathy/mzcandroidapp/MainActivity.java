@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences pref=getSharedPreferences("login",MODE_PRIVATE);
         checkusername=pref.getString("username",null);
 
-        if(checkusername!=null)
+       if(checkusername!=null)
         {
             Intent i=new Intent(getApplicationContext(),welcomeActivity.class);
             startActivity(i);
-        }
+       }
 
         ed1=(EditText)findViewById(R.id.uname);
         ed2=(EditText)findViewById(R.id.password);
