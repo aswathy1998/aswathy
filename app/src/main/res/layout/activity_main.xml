@@ -68,6 +68,15 @@
                     android:layout_height="wrap_content"
                     android:text="next app"
                     android:id="@+id/napp"/>
+                <Button
+                    android:textSize="20dp"
+                    android:layout_margin="15dp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/buttonstylings"
+                    android:id="@+id/viewusers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="viewusers"/>
 
 
         </LinearLayout>

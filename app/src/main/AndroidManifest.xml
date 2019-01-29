@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.aswathy.mzcandroidapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
 
     <application
         android:allowBackup="true"
@@ -22,7 +24,8 @@
         <activity android:name=".subActivity" />
         <activity android:name=".mulActivity" />
         <activity android:name=".divActivity" />
-        <activity android:name=".viewActivity"></activity>
+        <activity android:name=".viewActivity" />
+        <activity android:name=".userlist"></activity>
     </application>
 
 </manifest>
